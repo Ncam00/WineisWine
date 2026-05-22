@@ -4,10 +4,9 @@ import OpenAI from "openai";
 const sommelierRouter = Router();
 
 function getOpenAIClient(): OpenAI | null {
-  const baseUrl = process.env["AI_INTEGRATIONS_OPENAI_BASE_URL"];
-  const apiKey = process.env["AI_INTEGRATIONS_OPENAI_API_KEY"];
-  if (!baseUrl || !apiKey) return null;
-  return new OpenAI({ apiKey, baseURL: baseUrl });
+  const apiKey = process.env["OPENAI_API_KEY"];
+  if (!apiKey) return null;
+  return new OpenAI({ apiKey });
 }
 
 const SYSTEM_PROMPT = `You are a world-class AI sommelier and fine wine investment advisor named Vinoq. 

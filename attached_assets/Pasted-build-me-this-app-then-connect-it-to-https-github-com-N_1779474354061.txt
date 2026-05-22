@@ -1,0 +1,396 @@
+build me this app then connect it to https://github.com/Ncam00
+
+You basically want:
+
+“AI-powered autonomous wine portfolio management.”
+
+That’s MUCH more interesting to investors and users.
+
+Here’s how I’d structure the agent system.
+
+Core AI Agent System
+
+Instead of one AI chatbot, you create multiple specialized agents.
+
+Each agent has a role.
+
+Wine Valuation Agent
+Purpose:
+
+Tracks market prices
+
+Updates wine values automatically
+
+Detects appreciation/depreciation
+
+Estimates portfolio growth
+
+Tasks:
+
+Scrape pricing APIs
+
+Compare recent sales
+
+Estimate market value
+
+Alert users of major price moves
+
+Example:
+
+“Your 2016 Screaming Eagle increased 12% this month.”
+
+This becomes your:
+
+“stock market tracker for wine”
+
+Cellar Intelligence Agent
+Purpose: Understands the user’s collection.
+
+Analyzes:
+
+Regions
+
+Grape exposure
+
+Vintage diversification
+
+Drinking windows
+
+Investment balance
+
+Example:
+
+“Your cellar is overexposed to Napa Cabernet.”
+
+or
+
+“You own mostly near-peak wines. Consider younger Bordeaux.”
+
+This makes the app feel premium instantly.
+
+Drink Recommendation Agent
+Purpose: Suggest what users should drink next.
+
+Factors:
+
+Peak maturity
+
+Food pairing
+
+Weather
+
+Mood
+
+Occasion
+
+Portfolio strategy
+
+Example:
+
+“Tonight is ideal for your 2019 Central Otago Pinot Noir.”
+
+Very engaging daily-use feature.
+
+Buying Opportunity Agent
+Purpose: Find undervalued wines.
+
+Monitors:
+
+Retail sites
+
+Auctions
+
+Market trends
+
+Region popularity
+
+Then:
+
+“This Barolo appears 18% below market average.”
+
+This is where power users stay subscribed.
+
+Fraud / Authenticity Agent
+Massive future potential.
+
+Checks:
+
+Suspicious pricing
+
+Fake wine indicators
+
+Provenance issues
+
+Auction irregularities
+
+High-end collectors would LOVE this.
+
+Portfolio Growth Agent
+Acts like a financial advisor.
+
+Analyzes:
+
+ROI
+
+Market performance
+
+Best-performing regions
+
+Long-term appreciation
+
+Example:
+
+“Your Burgundy collection outperformed Bordeaux by 14% this year.”
+
+This is where you can justify premium pricing.
+
+Cellar Automation Agent
+This is the “self-running” magic.
+
+It:
+
+Auto-updates values
+
+Auto-categorizes wines
+
+Suggests drinking timelines
+
+Detects duplicates
+
+Recommends storage improvements
+
+Cleans bad entries
+
+User barely needs to manage anything manually.
+
+Smart Notification Agent
+Instead of annoying notifications:
+
+Only important insights
+
+Personalized alerts
+
+Examples:
+
+“2 wines are entering peak maturity.”
+
+“Your cellar value crossed NZ$10,000.”
+
+“Market demand for Champagne is rising.”
+
+Sommelier Conversation Agent
+Natural language AI.
+
+User asks:
+
+“What’s my best steak wine?”
+
+“What bottle should I gift?”
+
+“Which wines are underperforming?”
+
+This makes the app feel alive.
+
+Best Architecture for Agents
+
+Frontend
+
+React Native
+
+Beautiful animated UI
+
+Backend
+
+Supabase
+
+PostgreSQL
+
+AI Layer
+
+You’ll likely use:
+
+OpenAI
+
+LangChain
+
+CrewAI
+
+AutoGen
+
+Suggested Agent Framework
+
+Easiest:
+
+CrewAI
+
+Good for:
+
+multiple agents
+
+workflows
+
+autonomous tasks
+
+Perfect for this app.
+
+Agent Workflow Example
+
+User adds wine.
+
+Then:
+
+Valuation Agent
+
+↓ Gets market price
+
+Classification Agent
+
+↓ Categorizes wine
+
+Cellar Agent
+
+↓ Updates analytics
+
+Notification Agent
+
+↓ Determines whether to notify user
+
+All automated.
+
+REALLY Strong Premium Features
+
+“Auto Portfolio Mode”
+
+AI manages:
+
+value tracking
+
+maturity
+
+collection health
+
+Like:
+
+“Your AI cellar manager.”
+
+People pay for convenience.
+
+Future Insane Features
+
+Camera Shelf Scan
+
+User films cellar.
+
+AI:
+
+identifies bottles
+
+counts inventory
+
+updates collection automatically
+
+This would go viral.
+
+AI Wine Investment Score
+
+Every wine gets:
+
+rarity score
+
+appreciation potential
+
+drinking score
+
+liquidity score
+
+Auction Prediction Agent
+
+Predict:
+
+likely future value
+
+investment outlook
+
+collector demand
+
+Revenue Potential
+
+This isn’t just: “a wine app.”
+
+It could become:
+
+collector software
+
+investment software
+
+marketplace
+
+AI sommelier platform
+
+MVP Advice
+
+DO NOT build all agents immediately.
+
+Start with:
+
+MVP Agents
+
+Valuation Agent
+
+Drink Recommendation Agent
+
+Cellar Automation Agent
+
+That’s enough to feel “AI-powered.”
+
+Tech Stack for Autonomous Agents
+
+Recommended
+
+Frontend
+
+React Native + Expo
+
+Backend
+
+Supabase
+
+AI Orchestration
+
+CrewAI
+
+Background Jobs
+
+Temporal OR
+
+BullMQ
+
+Vector Memory
+
+Pinecone OR
+
+Weaviate
+
+Payments
+
+Stripe
+
+Hosting
+
+Railway/Vercel
+
+The Important Thing
+
+The app should feel:
+
+luxurious
+
+intelligent
+
+effortless
+
+Not:
+
+spreadsheet software
+
+If you nail the UX + AI automation combo, this actually has startup potential.
